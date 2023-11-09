@@ -14,7 +14,7 @@ public class PruebaController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
+    [HttpGet]
     public IEnumerable<String> Get()
     {
         return    new List<String>
