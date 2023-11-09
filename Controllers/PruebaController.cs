@@ -15,12 +15,15 @@ public class PruebaController : ControllerBase
     }
 
     [HttpGet]
-    public IEnumerable<String> Get()
+    public ActionResult<IEnumerable<String>> Get()
     {
-        return    new List<String>
-    {
+        return Ok(new 
+{
+ 
+    Titulo = "Prueba ",
+    Descripcion = "Prueba de CI / CD con Azure Devops"
+}
         
-        "Commit", "De", "Prueba", "CI", "CD", "Azure", "Devops"
-    };
+    );
     }
 }
