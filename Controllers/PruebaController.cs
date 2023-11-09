@@ -7,9 +7,9 @@ namespace monografia.Controllers;
 public class PruebaController : ControllerBase
 {
   
-    private readonly ILogger<WeatherForecastController> _logger;
+    private readonly ILogger<PruebaController> _logger;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public WeatherForecastController(ILogger<PruebaController> logger)
     {
         _logger = logger;
     }
