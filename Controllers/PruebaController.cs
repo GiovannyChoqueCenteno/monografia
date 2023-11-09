@@ -17,7 +17,7 @@ public class PruebaController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<String> Get()
     {
-        return    new List
+        return    new List<String>
     {
         "Commit", "De", "Prueba", "CI", "CD", "Azure", "Devops"
     };
