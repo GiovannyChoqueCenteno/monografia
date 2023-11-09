@@ -9,7 +9,7 @@ public class PruebaController : ControllerBase
   
     private readonly ILogger<PruebaController> _logger;
 
-    public WeatherForecastController(ILogger<PruebaController> logger)
+    public PruebaController(ILogger<PruebaController> logger)
     {
         _logger = logger;
     }
